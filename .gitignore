@@ -1,0 +1,21 @@
+# Ignore node_modules and log files
+backend/node_modules/
+backend/logs
+backend/*.log
+
+frontend/node_modules/
+frontend/logs
+frontend/*.log
+
+# Ignore key file
+backend/jw-social-key.json
+
+# Ignore build artifacts
+/frontend/build
+
+# Ignore .env file in frontend
+#frontend/.env
+
+# Ignore .env file in backend
+#backend/.env
+
